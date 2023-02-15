@@ -1,0 +1,3 @@
+uint32 distanceFromAnchor
+int32 AnchorNodeId
+uint32 qf

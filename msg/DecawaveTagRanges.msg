@@ -1,0 +1,2 @@
+string TagName
+TagRange[] TagRanges
