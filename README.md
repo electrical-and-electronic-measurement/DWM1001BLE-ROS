@@ -1,13 +1,14 @@
 # DWM1001BLE-RosNode
-Questo repo permette di acquisire dati da sensori DWM1001 tramite BLE (quindi completamente wireless) e li pubblica in topic.
-I dati di ranging raccolti vengono pubblicati in un topic ROS.
-Questo repo non pubblica dati di localizzazione, ma tutto il codice necessario per raccogliere i dati di posizizione dai tag tramite bluethoot è già presente.
+This repo allows data to be acquired from DWM1001 sensors via Bluetooth Low Energy (BLE) - thus completely wireless - and publishes it in ROS topic. 
+The DWM1001's BLE API allows it to read the same set of information that can be read via UART, and in addition, it is also possible to set all device parameters.
+This repo does not publish location data, but all the code needed to collect location data from tags via bluethoot is already present along with the code to set the devices parameters.
 
 # Tested Platforms
+The code in this repo has been tested with the following configuration:
 - Ubuntu 20
-- scheda BLE
+- Wireless Adapter Intel Wirelesss AC-9560 with Bluetooth Core Specification 5.1
 - ROS Noetic
-- 5 Decawave DWM1001 with FWM1: .... and FWM2:....
+- 5 Decawave DWM1001 with FW1: 0x01030000/0x5170973E and FWM2: 0x0130000/0xCEAF1E09
 
 # Custom Ros Messages structure
 WIP
