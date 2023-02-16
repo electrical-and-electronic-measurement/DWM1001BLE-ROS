@@ -58,7 +58,7 @@ This repo provides two different features: Localization and Ranging
 - Fill file 'Constants.py' with the data of yours uwb devices. This data can be read from the app. Also remember to set the "Ranging" or "Localization".
 
 # RUN
-- An index file is provided in the script  folder, you can run it with: ```rosrun DWM1001BLE-RosNode index.py```
+An index file is provided in the script  folder, you can run it with: ```rosrun DWM1001BLE-RosNode index.py```
 
 ## Topics
 All the data will be published in the topic specified by the variable "BLEDecawaveRangingTopicName" present in the file "Costants.py"
