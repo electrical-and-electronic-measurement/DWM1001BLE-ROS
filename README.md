@@ -15,7 +15,7 @@ The code in this repo has been tested with the following configuration:
 To see the message stucture referes to the .msg files in the msg folder
 
 # INSTALLATION
-## Requisiti
+## Requirements
 - Linux based system 
 - ROS Noetic (here the installation instruction http://wiki.ros.org/noetic/Installation)
 - BLE Adapter 
