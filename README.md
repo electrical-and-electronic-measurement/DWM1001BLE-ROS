@@ -12,7 +12,7 @@ The code in this repo has been tested with the following configuration:
 - Pycharm - Professional 2022
 
 # Custom Ros Messages structure
-To see the message stucture referes to the .msg files in the msg folder
+For information about the message structure see the .msg files in the msg folder
 
 # INSTALLATION
 ## Requirements
