@@ -21,7 +21,7 @@ For information about the message structure see the .msg files in the msg folder
 - BLE Adapter 
 - At least 2 Decawave DWM1001 devices ([here](https://www.qorvo.com/products/p/MDEK1001) the manufacter device web page)
 
-##  Softare installation steps
+##  Software installation steps
 - Setup your ROS environment: complete the steps given [here](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment) up to step 3
 - Clone this repo into a folder into your catkin_ws workspace. Once you are into the 'catkin_ws' folder, for expample runnig this command: ``` git clone https://github.com/valiokei/DWM1001BLE-RosNode.git ``` or using the [GitHub Desktop app](https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1?permalink_comment_id=4381065#gistcomment-4381065) using the link in the '<> Code' button above.
 - Install the dependencies in the file requirements.txt using  ```pip install -r requirements.txt```
