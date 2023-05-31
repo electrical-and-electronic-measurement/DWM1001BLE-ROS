@@ -63,6 +63,8 @@ An index file is provided in the script  folder, you can run it with: ```rosrun 
 ## Topics
 All the data will be published in the topic specified by the variable "BLEDecawaveRangingTopicName" present in the file "Costants.py"
 
+## License
+The content of this repository is open source and published under GNU General Public License v3.0 LICENSE.
 
 # TODO
 - Add a handleNotification method for handling the classic Anchor-Tag localization directly provided by the Decawave firmware.
