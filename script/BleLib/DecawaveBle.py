@@ -18,6 +18,10 @@ exponential_retry = tenacity.retry(
     after=tenacity.after_log(logger, logging.DEBUG),
     before_sleep=tenacity.before_sleep_log(logger, logging.WARNING))
 
+
+# BLE DEVICE MTU DEFAULT VALUE
+DEFAULT_MTU_VALUE = 200
+
 # BLE advertising data type codes
 SHORT_LOCAL_NAME_TYPE_CODE = 8
 
@@ -1031,7 +1035,7 @@ def write_data_multiple_devices_to_text_local(data_multiple, path):
                 file.write('Proxy positions data:\n')
                 for proxy_positions_datum in decawave_device['proxy_positions_data']:
                     file.write('  Node ID: {:04X}\n'.format(proxy_positions_datum['node_id']))
-                    file.write('    X: {} mm\n'.format(proxy_positions_datum['x_position']))
+                    file.write('    X: {} mm\n'.format(proxy_\positions_datum['x_position']))
                     file.write('    Y: {} mm\n'.format(proxy_positions_datum['y_position']))
                     file.write('    Z: {} mm\n'.format(proxy_positions_datum['z_position']))
                     file.write('    Quality: {}\n'.format(proxy_positions_datum['quality']))
