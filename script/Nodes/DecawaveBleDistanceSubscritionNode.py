@@ -104,6 +104,7 @@ class BLEDWM1001(threading.Thread):
     def run(self, event=None):
 
         dev = get_decawave_peripheral(self.device)
+        dev.setMTU(200)
         BLEDWM1001.peripheralDevices.append(dev)
         try:
             service = dev.getServiceByUUID(self.DWM_SERVICE_UUID)
