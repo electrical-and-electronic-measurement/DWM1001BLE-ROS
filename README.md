@@ -1,4 +1,27 @@
+# How to Cite
+Cite this work if you use it in your publications.
+
+BibTex: 
+```
+@ARTICLE{Brunacci2023,
+  author={Brunacci, Valerio and De Angelis, Alessio and Costante, Gabriele and Carbone, Paolo},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Development and Analysis of a UWB Relative Localization System}, 
+  year={2023},
+  volume={72},
+  number={},
+  pages={1-13},
+  doi={10.1109/TIM.2023.3305661}}
+ ```
+
+Plain Tex:
+```
+V. Brunacci, A. De Angelis, G. Costante and P. Carbone, "Development and Analysis of a UWB Relative Localization System," in IEEE Transactions on Instrumentation and Measurement, vol. 72, pp. 1-13, 2023, Art no. 8505713, doi: 10.1109/TIM.2023.3305661.
+```
 # DWM1001BLE-ROS
+
+
+
 This repo allows data to be acquired from DWM1001 sensors via Bluetooth Low Energy (BLE) - thus completely wireless - and publishes it in ROS topic. 
 The DWM1001's BLE API allows it to read the same set of information that can be read via UART, and in addition, it is also possible to set all device parameters.
 This repo does not publish location data, but all the code needed to collect location data from tags via bluethoot is already present along with the code to set the devices parameters.
